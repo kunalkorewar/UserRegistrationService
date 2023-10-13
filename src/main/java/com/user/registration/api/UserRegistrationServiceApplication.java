@@ -6,8 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class UserRegistrationServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UserRegistrationServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(UserRegistrationServiceApplication.class, args);
+
+        System.out.println("tomcat start");
+    }
+
 
 }
